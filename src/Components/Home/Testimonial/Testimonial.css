@@ -1,0 +1,26 @@
+.testimonial-container{
+    margin: 40px;
+    padding: 10px;
+}
+
+
+.testimonial-head{
+    text-align: center;
+}
+
+.testimonial-head h5{
+    color: #1cc7c1;
+    font-size: 20px;
+}
+
+.testimonial-head h2{
+    color: #3a4256;
+    font-size: 30px;
+}
+
+.testimonial-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}

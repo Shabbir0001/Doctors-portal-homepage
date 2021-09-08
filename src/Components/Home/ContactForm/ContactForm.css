@@ -1,0 +1,57 @@
+.contactForm-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.contactForm-container input{
+    height: 60px;
+    width: 500px;
+    padding: 10px;
+    border: 2px solid #80b8ec;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+
+
+#message{
+    flex-basis: 300px;
+} 
+
+
+.submit-button{
+    height: 40px;
+    padding: 10px 60px;
+    margin: 40px;
+    background: #1cc7c1;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3a4256;
+}
+
+@media(max-width: 650px){
+    .contactForm-container input{
+        height: 50px;
+        width: 280px;
+    }
+    #message{
+        flex-basis: 200px;
+    }
+}
+
+
+
+@media(max-width: 450px){
+    .contactForm-container input{
+        height: 40px;
+        width: 230px;
+    }
+    #message{
+        flex-basis: 100px;
+    }
+}

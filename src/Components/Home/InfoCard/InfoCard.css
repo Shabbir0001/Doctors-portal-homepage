@@ -1,0 +1,40 @@
+.infoCard-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    padding: 10px;
+}
+
+.info-primary{
+    flex-basis: 30%;
+    background: #1cc7c1;
+    color: white;
+    border-radius: 5px;
+}
+
+.info-primary:hover{
+    transition: 0.3s ease-in-out;
+    background: #10726e;
+    box-shadow: 5px 5px 8px black;
+}
+
+
+.info-dark{
+    flex-basis: 30%;
+    background: #3a4256;
+    color:white;
+    border-radius: 5px;
+}
+
+.info-dark:hover{
+    transition: 0.3s ease-in-out;
+    background: #1e222c;
+    box-shadow: 5px 5px 8px black;
+}
+
+.info-icon{
+    font-size: 3em;
+    padding: 10px;
+    margin: 10px;
+}

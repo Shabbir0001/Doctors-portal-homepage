@@ -1,0 +1,26 @@
+.testimonialDetail-container{
+    flex-basis: 300px;
+    margin: 30px 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 5px gray;
+}
+.testimonialDetail-container p{
+    color: darkgray;
+}
+
+.patient-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.patient-card img{
+    margin: 10px;
+}
+.patient-card h5{
+    color: #1cc7c1;
+}
+
+.patient-card small{
+    color: darkgray;
+}

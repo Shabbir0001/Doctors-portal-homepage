@@ -1,0 +1,34 @@
+.footer-container{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;    
+    background-image: url("../../../images/bg-net.jpg");
+    background-size: 100%;
+}
+
+.footer-container p{
+    color: #3a4256;
+}
+
+.footer-container h4{
+    color: #1cc7c1;
+    font-size: 30px;
+}
+
+.footer-card{
+    flex-basis: 300px;
+    padding: 10px;
+}
+
+.icon-container i{
+    font-size: 35px;
+    padding: 5px;
+    color: #1cc7c1;
+}
+
+
+@media(max-width: 800px){
+    .footer-container{
+        flex-direction: column;
+    }
+}

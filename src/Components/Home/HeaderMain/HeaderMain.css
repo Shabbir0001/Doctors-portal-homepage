@@ -1,0 +1,42 @@
+.headerMain-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px;
+}
+@media(max-width: 850px){
+    .headerMain-container{
+        flex-direction: column-reverse;
+    }
+}
+
+.headerMain-container h1 {
+    color: #3a4356;
+}
+
+.first-half-headerMain{
+    flex-basis: 40%;
+}
+
+.first-half-headerMain button{
+    height: 45px;
+    font-size: 18px;
+    background: #1cc7c1;
+    color: #3a4256;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.second-half-headerMain{
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.second-half-headerMain img{
+    max-width: 90%;
+}

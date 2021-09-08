@@ -1,0 +1,21 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background: #3a4256;
+}
+
+
+.contact-head{
+    text-align: center;
+}
+
+.contact-head h4{
+    color: #1cc7c1;
+    font-size: 20px;
+}
+.contact-head h2{
+    color: whitesmoke;
+    font-size: 30px;
+}

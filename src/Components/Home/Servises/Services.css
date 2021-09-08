@@ -1,0 +1,33 @@
+.services-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.services-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-head h5{
+    color: #1cc7c1;
+    font-size: 20px;
+}
+
+.services-head h2{
+    color: #3a4256;
+    font-size: 30px;
+}
+.services-body{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+@media(max-width: 750px){
+    .services-body{
+        flex-direction: column;
+    }
+}

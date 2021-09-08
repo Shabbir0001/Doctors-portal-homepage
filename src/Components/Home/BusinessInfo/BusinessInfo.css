@@ -1,0 +1,13 @@
+.businessInfo-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 40px;
+}
+
+
+@media(max-width: 750px){
+    .businessInfo-container{
+        flex-direction: column;
+    }
+}

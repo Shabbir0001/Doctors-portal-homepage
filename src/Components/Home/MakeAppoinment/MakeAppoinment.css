@@ -1,0 +1,57 @@
+.makeAppoinment-container{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    background-image: url("../../../images/feature-bg.png");
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    height: 400px;
+}
+
+.makeAppoinment-container::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgb(36,41,73);
+    opacity: 0.7;
+    top: 0;
+}
+
+.doctorImg img{
+    height: 550px;
+    transform: translateY(-70px);
+}
+
+.appoinment-info{
+    margin: 20px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.appoinment-info h5{
+    color: #1cc7c1;
+    font-size: 20px;
+}
+
+.appoinment-info h2{
+    color: white;
+    font-size: 40px;
+}
+
+.appoinment-info p{
+    color: lightgray;
+}
+@media(max-width: 768px){
+    .makeAppoinment-container{
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+
+    .doctorImg img{
+        height: 350px;
+        transform: translateY(0);
+    }
+}

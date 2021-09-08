@@ -1,0 +1,33 @@
+.blogDetail-container{
+    flex-basis: 300px;
+    margin: 30px 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 5px gray;
+}
+
+.blogDetail-container h4{
+    color: #304d5a;
+    font-size: 20px;
+}
+
+.blogDetail-container p{
+    color: gray;
+}
+
+
+.doctor-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.doctor-card img{
+    margin: 10px;
+}
+.doctor-card h5{
+    color: #1cc7c1;
+}
+
+.doctor-card small{
+    color: darkgray;
+}

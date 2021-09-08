@@ -1,0 +1,26 @@
+.blogs-container{
+    margin: 40px;
+    padding: 10px;
+}
+
+
+.blogs-head{
+    text-align: center;
+}
+
+.blogs-head h5{
+    color: #1cc7c1;
+    font-size: 20px;
+}
+
+.blogs-head h2{
+    color: #3a4256;
+    font-size: 30px;
+}
+
+.blogs-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
